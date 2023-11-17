@@ -1,0 +1,53 @@
+# Resume Projects
+
+## Agenda of Lesson 03
+
+- CSS Display
+    - Block
+    - Inline
+    - Inline-block
+    - None
+- CSS Position
+    - Absolute & Realtive
+    - Fixed
+    - Sticky
+- Advance positioning 
+    - CSS Float
+    - CSS Clear
+    - CSS Overflow
+- CSS Units
+    - px
+    - vh
+    - vw
+    - rem 
+    - em
+    - %
+- CSS Flexbox
+    - Introduction to layouts
+    - flex- basis
+    - flex-shrink
+    - flex-grow
+    - flex-wrap
+    - align elements
+    - justify elements
+    - Creating a layout
+- CSS Grid
+    - Introduction
+    - Template columns
+    - Template row
+    - Repeat
+    - Template Area
+    - Gap
+    - Justify
+    - Align
+    - Span rows and columns
+- CSS Media Queries
+    - Introduction
+    - Reposnive and NON- Reposnsive
+    - Cobverting
+    - Media query rules
+    - Media print
+- CSS Animations
+    - CSS Animation Basic
+    - animation state
+    - Animation changes
