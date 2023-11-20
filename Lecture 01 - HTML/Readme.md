@@ -8,7 +8,7 @@
 - HTML Tags
 - HTML Headings
 - Anchor Tags
-- Block level and Inline Tags
+- Block tags and Inline Tags
 - Image Tags
 - Video Tags
 - Table Tags
