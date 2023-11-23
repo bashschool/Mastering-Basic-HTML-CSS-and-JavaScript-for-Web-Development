@@ -1,0 +1,53 @@
+* {
+
+    margin: 0;
+}
+
+.outer-div {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+
+
+.border {
+    height: 100%;
+    border: 2px solid yellow;
+    margin: 10px;
+
+}
+
+.padding {
+    padding: 20px;
+    height: 110px;
+
+
+}
+
+
+.content {
+    background-color: blue;
+    height: 100%;
+
+}
+
+
+html {
+    --deepblue-color: rgb(131, 162, 255);
+    --skin-color : rgb(255, 210, 143);
+    --light-skin-color : rgb(255, 227, 187);
+    background-color: var(--light-skin-color);
+}
+
+
+p {
+
+
+    height: 100px;
+    width: 100px;
+    background-color: var(--skin-color);
+    border: 2px solid var(--deepblue-color);
+    padding: 10px;
+    margin: 10px;
+
+}

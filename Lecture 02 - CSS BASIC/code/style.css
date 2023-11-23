@@ -1,0 +1,24 @@
+div {
+    background-color: pink;
+    color: black;
+}
+
+p {
+    color: blue;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+#abhishek{
+    color: brown;
+}
+
+abhishek{
+    color: red;
+}

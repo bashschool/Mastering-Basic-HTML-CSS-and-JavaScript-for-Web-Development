@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 450px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 25px blue) ;
+}
+
+
+.education-section  , .work-section{
+
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.work-section {
+    margin-top: 10px;
+}
+
+.header{
+    text-align: center;
+}
+
+.name {
+    font-family: 'Pacifico';
+}
