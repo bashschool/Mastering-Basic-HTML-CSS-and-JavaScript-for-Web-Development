@@ -1,0 +1,46 @@
+* {
+    background-color:pink;
+    color: black;
+
+}
+
+.outerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#counter {
+    font-size: 50px;
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btns button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: #000;
+    font-size: large;
+    cursor: pointer;
+    transition: all ease-in-out 200ms;    
+}
+
+.btns button:hover {
+    filter: drop-shadow(5px 5px 2px green);
+    translate: -2px -2px;
+}
+
+#increment , #decrement {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
