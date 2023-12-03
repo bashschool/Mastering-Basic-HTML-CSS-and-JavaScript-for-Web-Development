@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    height: 100%;
+}
+
+p {
+    font-size: 14px;
+}
+.outerdiv {
+    background-color: cyan;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.smallerdiv {
+    background-color: violet;
+    height: 40px;
+    width: 40px;
+    border : 1px solid black;
+}

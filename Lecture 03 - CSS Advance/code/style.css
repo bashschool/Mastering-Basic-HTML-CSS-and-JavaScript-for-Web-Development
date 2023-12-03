@@ -1,0 +1,68 @@
+html {  
+    --background-color: pink;
+  
+    --standard-font-size: 26px;
+    --h1-font-size: calc(var(--standard-font-size) + 4px);
+  
+    background-color: var(--background-color);
+}
+  
+  
+h1 {
+    background-color: var(--background-color);
+    font-size: calc(24px + 1rem)
+  }
+  
+h1:hover {
+    background-color: black;
+    color: var(--background-color);
+  }
+  
+p {
+    font-size: var(--standard-font-size);
+
+}
+
+p::after {
+    content: attr(class)
+}
+p::before {
+    content: attr(class)
+}
+
+
+/* .underline:hover {
+    text-decoration: underline;
+  }
+   */
+  
+.input::after {
+    content: "This comes before input tag";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--background-color);
+    transition: width .3s;
+  }
+  
+
+b [data-name="name"] {
+    text-decoration: underline ;
+    color: yellow;
+}
+
+h1 ~ ul {
+    background-color: yellow;
+}
+h1 + ul {
+    background-color: rgb(217, 0, 255);
+}
+
+ul > li {
+
+    color: rgb(0, 0, 0);
+}
+
+ul :nth-child(3n){
+    text-decoration: underline;
+}
